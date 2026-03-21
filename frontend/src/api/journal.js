@@ -1,4 +1,4 @@
-const BASE = process.env.REACT_APP_API_URL || "/api";
+const BASE = process.env.REACT_APP_API_URL || "https://arvyax-journal-mgxo.onrender.com/api";
 
 export async function createEntry(userId, ambience, text) {
   const res = await fetch(`${BASE}/journal`, {
